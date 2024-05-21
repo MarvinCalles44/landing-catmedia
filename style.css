@@ -1,0 +1,440 @@
+/* Importando fuente Roboto de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* navbar */
+.menu{
+    display: flex;
+    width: 100%;
+    padding: 0 10.3125em 0 10.3125em;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    color: #37447e;
+    height: 3.75rem;
+    text-decoration: none;
+    z-index: 4;
+}
+
+.menu ul{
+    
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    gap: 3.75rem;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #505f98;
+}
+
+.menu ul li a:hover{
+    text-decoration: none;
+    color: #37447e;
+    
+}
+
+.menu h2{
+    width: 27.5%;
+    border: solid;
+    padding-left: 5%;
+}
+
+.menu button{
+    font-size: 12px;
+    width: 10rem;
+    height: 1.625rem;
+    background-color: #111b47;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover{
+    background-color: #1a296d;
+}
+
+
+.hero{
+    
+    height: 1103px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    
+}
+
+.hero-img{
+    top: 0;
+    right: 0;
+    height: 1100px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.hero-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content{
+    
+    padding-top:20rem;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title-and-text{
+    margin-top: -300px;
+    margin-left: 11%;
+    text-align: justify;
+    width: 35.5%;
+    height: 421px;
+}
+
+.hero-photo{
+    height: 780px;
+    width: 641px;
+    margin-top: -4.5%;
+    text-align: right;
+}
+.hero-photo img{
+    height: 780px;
+    width: 641px;
+}
+
+.hero-title{
+    font-size: 1.525rem;
+    line-height: 70px;
+    text-shadow: 0px 5px 4px rgba(0,0,0,0.36);
+}
+
+
+
+.hero-text{
+    margin-top: 20px;
+    color: #505f98;
+    font-size: 17.5px;
+    line-height: 20px;
+}
+
+.hero-buttons{
+    margin-top: 4.3125rem;
+}
+
+.purchase-button{
+    background-color: #111b47;
+    font-weight: 500;
+    color: white;
+    width: 189px;
+    height: 36px;
+    border-radius: 5px;
+    margin-right: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.purchase-button:hover{
+    background-color: #1a296d;
+}
+
+.learn-button{
+    background-color: #ffffff;
+    font-weight: 700;
+    color: #111b47;
+    border: solid 3px #111b47;
+    width: 189px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.learn-button:hover{
+    background-color: #1a296d;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    padding-top: 110px;
+    height: 742px;
+}
+
+.content-info{
+
+    width: 49%;
+    padding-left: 165px;
+    padding-top: 38px;
+    height: 524px;
+    margin-right: 20px;
+}
+
+.content-title{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.content-text{
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #6f7cb2;
+}
+
+.content-cards{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.content-card{
+    border: solid green;
+    height: 138px;
+    
+    width: 45.5%;
+}
+
+.content-image{
+    text-align: left;
+    width: 49%;
+    height: 524px;
+}
+
+.content-cards-title{
+    margin-top: 10px;
+    color: #091133;
+}
+
+.content-cards-text {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #5d6970;
+}
+
+.content-image img{
+    width: 70%;
+}
+
+.cards{
+    height: 1707px
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+   
+    height: 569px;
+    align-items: center;
+    
+}
+
+.card img{
+    width: 540px;
+    height: 387px;
+   
+    
+}
+
+.card-info{
+    
+    width: 29.3%;
+    height: 228px;
+    border: solid;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-text{
+    margin-top: 30px;
+    line-height: 25px;
+    color: #6f7cb2;
+    margin-bottom: 28.5px;
+}
+
+.pricing{
+    background-image: url(img/Rectangle.png);
+    height: 705px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-card{
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+}
+
+.pricing-title{
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.pricing-text{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #6f7cb2;
+    text-align: center;
+}
+
+.price{
+    font-size: 45px;
+    margin-top: 35.82px;
+    font-weight: 500;
+    color: #222f65;
+}
+
+.price-text{
+    color: #37447e;
+    margin-top: 8px;
+}
+
+.button-text{
+    font-size: 13px;
+    color: #5d6970;
+    margin-top: 70px;
+}
+
+.purchase{
+    width: 189px;
+    height: 31.81px;
+    background-color: #111b47;
+    color: white;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 216px;
+    background-color: #e7ecff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-footer{
+    display: flex;
+    width: 85.7%;
+    border-bottom: solid 1px #939ea4;;
+    justify-content: space-between;
+    height: 70px;
+    align-items: flex-start;
+}
+
+.footer-title{
+    font-size: 27px;
+    color: #37447e;
+}
+
+.copyright{
+    color: #939ea4;
+}
+
+.second-footer{
+    justify-content: space-between;
+    display: flex;
+    width: 85.7%;
+    margin-top: 20px;
+}
+
+.footer-button{
+    width: 109px;
+    height: 26px;
+    background-color: #111b47;
+    color: white;
+    
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+    width: 199.9%;
+    border: solid;
+
+}
+
+.footer-menu ul li a{
+    text-decoration: none;
+    
+}
+
+.social-media{
+    
+    width: 17.7%;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1023px){
+
+    .menu{
+        display: none;
+    }
+    .hero-img{
+    display: none;
+    }
+
+    .hero-img img{
+
+    display: none;
+    }
+
+    .hero-photo{
+        height: 100px;
+        width: 100px;
+        margin-top: -4.5%;
+        text-align: right;
+    }
+    .hero-photo img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .card img{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
